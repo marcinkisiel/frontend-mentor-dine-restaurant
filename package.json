@@ -1,0 +1,26 @@
+{
+	"name": "frontend-mentor-dine-restaurant",
+	"version": "1.0.0",
+	"description": "",
+	"homepage": "https://github.com/marcinkisiel/frontend-mentor-dine-restaurant",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/marcinkisiel/frontend-mentor-dine-restaurant.git"
+	},
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "Marcin Kisiel",
+	"license": "ISC",
+	"devDependencies": {
+		"browser-sync": "^2.26.13",
+		"gulp": "^4.0.2",
+		"gulp-concat": "^2.6.1",
+		"gulp-sass": "^4.0.2"
+	},
+	"dependencies": {
+		"swiper": "^6.3.5"
+	}
+}
