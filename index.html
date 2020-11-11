@@ -4,18 +4,51 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+		<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 		<link rel="stylesheet" href="css/main.css" />
-		<script src="js/main.js" defer></script>
 		<title>Frontend Mentor | Dine Website Challenge</title>
 	</head>
 	<body>
-		Exquisite dining since 1989 Experience our seasonal menu in beautiful country surroundings. Eat the freshest produce from the comfort of our
-		farmhouse. Book a table
+		<header class="homepage-hero">
+			<div class="homepage-hero__bg">
+				<picture class="homepage-hero__photo">
+					<source media="(min-width: 992px)" srcset="./images/homepage/hero-bg-desktop.jpg, ./images/homepage/hero-bg-desktop@2x.jpg 2x" />
+					<source media="(min-width: 768px)" srcset="./images/homepage/hero-bg-tablet.jpg, ./images/homepage/hero-bg-tablet@2x.jpg 2x" />
+					<img
+						src="./images/homepage/hero-bg-mobile.jpg"
+						srcset="./images/homepage/hero-bg-mobile.jpg, ./images/homepage/hero-bg-mobile@2x.jpg 2x"
+						alt="Enjoyable place"
+					/>
+				</picture>
+			</div>
+			<div class="homepage-hero__column">
+				<img src="./images/logo.svg" alt="Dine logo" />
+				<h1 class="homepage-hero__title">Exquisite dining since 1989</h1>
+				<p class="homepage-hero__text">
+					Experience our seasonal menu in beautiful country surroundings. Eat the freshest produce from the comfort of our farmhouse.
+				</p>
+				<a class="homepage-hero__button button" href="#">Book a table</a>
+			</div>
+		</header>
 		<section class="features section-white">
 			<div class="container">
 				<article class="feature feature--1">
 					<div class="feature__column">
-						<img src="./images/homepage/enjoyable-place-desktop.jpg" alt="Enjoyable place" />
+						<picture class="feature__photo">
+							<source
+								media="(min-width: 992px)"
+								srcset="./images/homepage/enjoyable-place-desktop.jpg, ./images/homepage/enjoyable-place-desktop@2x.jpg 2x"
+							/>
+							<source
+								media="(min-width: 768px)"
+								srcset="./images/homepage/enjoyable-place-tablet.jpg, ./images/homepage/enjoyable-place-tablet@2x.jpg 2x"
+							/>
+							<img
+								src="./images/homepage/enjoyable-place-mobile.jpg"
+								srcset="./images/homepage/enjoyable-place-mobile.jpg, ./images/homepage/enjoyable-place-mobile@2x.jpg 2x"
+								alt="Enjoyable place"
+							/>
+						</picture>
 					</div>
 					<div class="feature__column">
 						<h2 class="feature__title">Enjoyable place for all the family</h2>
@@ -27,7 +60,21 @@
 				</article>
 				<article class="feature feature--2">
 					<div class="feature__column">
-						<img src="./images/homepage/locally-sourced-desktop.jpg" alt="Locally sourced food" />
+						<picture class="feature__photo">
+							<source
+								media="(min-width: 992px)"
+								srcset="./images/homepage/locally-sourced-desktop.jpg, ./images/homepage/locally-sourced-desktop@2x.jpg 2x"
+							/>
+							<source
+								media="(min-width: 768px)"
+								srcset="./images/homepage/locally-sourced-tablet.jpg, ./images/homepage/locally-sourced-tablet@2x.jpg 2x"
+							/>
+							<img
+								src="./images/homepage/locally-sourced-mobile.jpg"
+								srcset="./images/homepage/locally-sourced-mobile.jpg, ./images/homepage/locally-sourced-mobile@2x.jpg 2x"
+								alt="Enjoyable place"
+							/>
+						</picture>
 					</div>
 					<div class="feature__column">
 						<h2 class="feature__title">The most locally sourced food</h2>
@@ -51,7 +98,17 @@
 				<div class="highlights__column">
 					<article class="menu-item">
 						<div class="menu-item__graphic">
-							<img src="./images/homepage/salmon-mobile.jpg" alt="Salmon" />
+							<picture class="menu-item__photo">
+								<source
+									media="(min-width: 768px)"
+									srcset="./images/homepage/salmon-desktop-tablet.jpg, ./images/homepage/salmon-desktop-tablet@2x.jpg 2x"
+								/>
+								<img
+									src="./images/homepage/salmon-mobile.jpg"
+									srcset="./images/homepage/salmon-mobile.jpg, ./images/homepage/salmon-mobile@2x.jpg 2x"
+									alt="Salmon"
+								/>
+							</picture>
 						</div>
 						<div class="menu-item__info">
 							<h2 class="menu-item__title">Seared Salmon Fillet</h2>
@@ -60,7 +117,17 @@
 					</article>
 					<article class="menu-item">
 						<div class="menu-item__graphic">
-							<img src="./images/homepage/beef-mobile.jpg" alt="Beef" />
+							<picture class="menu-item__photo">
+								<source
+									media="(min-width: 768px)"
+									srcset="./images/homepage/beef-desktop-tablet.jpg, ./images/homepage/beef-desktop-tablet@2x.jpg 2x"
+								/>
+								<img
+									src="./images/homepage/beef-mobile.jpg"
+									srcset="./images/homepage/beef-mobile.jpg, ./images/homepage/beef-mobile@2x.jpg 2x"
+									alt="Beef"
+								/>
+							</picture>
 						</div>
 						<div class="menu-item__info">
 							<h2 class="menu-item__title">Rosemary Filet Mignon</h2>
@@ -69,7 +136,17 @@
 					</article>
 					<article class="menu-item">
 						<div class="menu-item__graphic">
-							<img src="./images/homepage/chocolate-mobile.jpg" alt="Chocolate" />
+							<picture class="menu-item__photo">
+								<source
+									media="(min-width: 768px)"
+									srcset="./images/homepage/chocolate-desktop-tablet.jpg, ./images/homepage/chocolate-desktop-tablet@2x.jpg 2x"
+								/>
+								<img
+									src="./images/homepage/chocolate-mobile.jpg"
+									srcset="./images/homepage/chocolate-mobile.jpg, ./images/homepage/chocolate-mobile@2x.jpg 2x"
+									alt="Salmon"
+								/>
+							</picture>
 						</div>
 						<div class="menu-item__info">
 							<h2 class="menu-item__title">Summer Fruit Chocolate Mousse</h2>
@@ -79,11 +156,94 @@
 				</div>
 			</div>
 		</section>
-		Family Gathering Special Events Social Events Family Gathering We love catering for entire families. So please bring everyone along for a
-		special meal with your loved ones. We’ll provide a memorable experience for all. Special Events Whether it’s a romantic dinner or special date
-		you’re celebrating with others we’ll look after you. We’ll be sure to mark your special date with an unforgettable meal. Social Events Are you
-		looking to have a larger social event? No problem! We’re more than happy to cater for big parties. We’ll work with you to make your event a
-		hit with everyone. Book a table
+		<section class="event-slider section-white swiper-container">
+			<div class="event-slider__wrapper swiper-wrapper">
+				<div class="event-slider__slide event-slider__slide--1 swiper-slide">
+					<div class="event-slider__column">
+						<picture class="event-slider__photo">
+							<source
+								media="(min-width: 992px)"
+								srcset="./images/homepage/family-gathering-desktop.jpg, ./images/homepage/family-gathering-desktop@2x.jpg 2x"
+							/>
+							<source
+								media="(min-width: 768px)"
+								srcset="./images/homepage/family-gathering-tablet.jpg, ./images/homepage/family-gathering-tablet@2x.jpg 2x"
+							/>
+							<img
+								src="./images/homepage/family-gathering-mobile.jpg"
+								srcset="./images/homepage/family-gathering-mobile.jpg, ./images/homepage/family-gathering-mobile@2x.jpg 2x"
+								alt="Family gathering"
+							/>
+						</picture>
+					</div>
+					<div class="event-slider__nav"></div>
+					<div class="event-slider__body">
+						<h2 class="event-slider__title">Family Gathering</h2>
+						<p class="event-slider__text">
+							We love catering for entire families. So please bring everyone along for a special meal with your loved ones. We’ll
+							provide a memorable experience for all.
+						</p>
+						<a class="event-slider__button button" href="#">Book a table</a>
+					</div>
+				</div>
+				<div class="event-slider__slide event-slider__slide--2 swiper-slide">
+					<div class="event-slider__column">
+						<picture class="event-slider__photo">
+							<source
+								media="(min-width: 992px)"
+								srcset="./images/homepage/special-events-desktop.jpg, ./images/homepage/special-events-desktop@2x.jpg 2x"
+							/>
+							<source
+								media="(min-width: 768px)"
+								srcset="./images/homepage/special-events-tablet.jpg, ./images/homepage/special-events-tablet@2x.jpg 2x"
+							/>
+							<img
+								src="./images/homepage/special-events-mobile.jpg"
+								srcset="./images/homepage/special-events-mobile.jpg, ./images/homepage/special-events-mobile@2x.jpg 2x"
+								alt="Family gathering"
+							/>
+						</picture>
+					</div>
+					<div class="event-slider__nav"></div>
+					<div class="event-slider__body">
+						<h2 class="event-slider__title">Special Events</h2>
+						<p class="event-slider__text">
+							Whether it’s a romantic dinner or special date you’re celebrating with others we’ll look after you. We’ll be sure to mark
+							your special date with an unforgettable meal.
+						</p>
+						<a class="event-slider__button button" href="#">Book a table</a>
+					</div>
+				</div>
+				<div class="event-slider__slide event-slider__slide--3 swiper-slide">
+					<div class="event-slider__column">
+						<picture class="event-slider__photo">
+							<source
+								media="(min-width: 992px)"
+								srcset="./images/homepage/social-events-desktop.jpg, ./images/homepage/social-events-desktop@2x.jpg 2x"
+							/>
+							<source
+								media="(min-width: 768px)"
+								srcset="./images/homepage/social-events-tablet.jpg, ./images/homepage/social-events-tablet@2x.jpg 2x"
+							/>
+							<img
+								src="./images/homepage/social-events-mobile.jpg"
+								srcset="./images/homepage/social-events-mobile.jpg, ./images/homepage/social-events-mobile@2x.jpg 2x"
+								alt="Family gathering"
+							/>
+						</picture>
+					</div>
+					<div class="event-slider__nav"></div>
+					<div class="event-slider__body">
+						<h2 class="event-slider__title">Social Events</h2>
+						<p class="event-slider__text">
+							Are you looking to have a larger social event? No problem! We’re more than happy to cater for big parties. We’ll work with
+							you to make your event a hit with everyone.
+						</p>
+						<a class="event-slider__button button" href="#">Book a table</a>
+					</div>
+				</div>
+			</div>
+		</section>
 		<div class="cta">
 			<h2 class="cta__title">Ready to make a reservation?</h2>
 			<a class="cta__button button" href="#">Book a table</a>
@@ -94,5 +254,8 @@
 			<div class="footer__column footer__column--address">Marthwaite, Sedbergh Cumbria +00 44 123 4567</div>
 			<div class="footer__column footer__column--open-times">Open Times Mon - Fri: 09:00 AM - 10:00 PM Sat - Sun: 09:00 AM - 11:30 PM</div>
 		</footer>
+
+		<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+		<script src="js/main.js" type="module"></script>
 	</body>
 </html>
