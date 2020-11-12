@@ -9,3 +9,26 @@ $sm: 576px;
 $md: 768px;
 $lg: 992px;
 $xl: 1200px;
+
+// Colors
+
+// Beaver
+$primary-light: #9e7f66;
+// Cod gray
+$primary-dark: #111111;
+// Shuttle gray
+$secondary-light: #5c6779;
+// Ebony Clay
+$secondary-dark: #242b37;
+// Mirage
+$secondary-darker: #17192b;
+// White
+$white: #fff;
+
+// Typography
+
+// Spartan Google Font
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@300;400;600;700&display=swap');
+
+// Spartan font family
+$spartan: 'Spartan', sans-serif;

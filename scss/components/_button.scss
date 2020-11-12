@@ -1,3 +1,16 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the button component.
 // -----------------------------------------------------------------------------
+
+.button {
+	display: inline-block;
+	width: 245px;
+	height: 64px;
+	font-size: 14px;
+	line-height: 64px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: $white;
+	border: 1px solid $white;
+}

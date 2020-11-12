@@ -1,3 +1,20 @@
 /**
  * Basic typography style for copy text
  */
+
+body {
+	font-family: $spartan;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 28px;
+	letter-spacing: 0.19px;
+	text-align: center;
+	color: $secondary-darker;
+}
+
+h1 {
+	font-size: 32px;
+	font-weight: 300;
+	line-height: 40px;
+	letter-spacing: 0.4px;
+}

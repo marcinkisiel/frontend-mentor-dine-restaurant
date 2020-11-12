@@ -9,25 +9,26 @@
 		<title>Frontend Mentor | Dine Website Challenge</title>
 	</head>
 	<body>
-		<header class="homepage-hero">
-			<div class="homepage-hero__bg">
-				<picture class="homepage-hero__photo">
+		<header class="hero">
+			<div class="hero__bg">
+				<picture class="hero__picture">
 					<source media="(min-width: 992px)" srcset="./images/homepage/hero-bg-desktop.jpg, ./images/homepage/hero-bg-desktop@2x.jpg 2x" />
 					<source media="(min-width: 768px)" srcset="./images/homepage/hero-bg-tablet.jpg, ./images/homepage/hero-bg-tablet@2x.jpg 2x" />
 					<img
+						class="hero__photo"
 						src="./images/homepage/hero-bg-mobile.jpg"
 						srcset="./images/homepage/hero-bg-mobile.jpg, ./images/homepage/hero-bg-mobile@2x.jpg 2x"
 						alt="Enjoyable place"
 					/>
 				</picture>
 			</div>
-			<div class="homepage-hero__column">
-				<img src="./images/logo.svg" alt="Dine logo" />
-				<h1 class="homepage-hero__title">Exquisite dining since 1989</h1>
-				<p class="homepage-hero__text">
+			<div class="hero__column container">
+				<img class="hero__logo logo" src="./images/logo.svg" alt="Dine logo" />
+				<h1 class="hero__title">Exquisite dining since 1989</h1>
+				<p class="hero__text">
 					Experience our seasonal menu in beautiful country surroundings. Eat the freshest produce from the comfort of our farmhouse.
 				</p>
-				<a class="homepage-hero__button button" href="#">Book a table</a>
+				<a class="hero__button button" href="#">Book a table</a>
 			</div>
 		</header>
 		<section class="features section-white">
