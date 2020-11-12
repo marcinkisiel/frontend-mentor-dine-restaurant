@@ -1,0 +1,46 @@
+.event-slider {
+	padding-top: 80px;
+	padding-bottom: 120px;
+
+	&__menu {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__menu-item {
+		font-size: 14px;
+		font-weight: 600;
+		line-height: 28px;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		color: rgba($slider-gray, 0.5);
+
+		&--active {
+			color: $slider-gray;
+		}
+	}
+
+	&__photo {
+		margin-bottom: 48px;
+		box-shadow: 0px 75px 100px -50px rgba(56, 66, 85, 0.5);
+	}
+
+	&__title {
+		margin-bottom: 16px;
+	}
+
+	&__text {
+		margin-bottom: 32px;
+		line-height: 25px;
+	}
+
+	&__button {
+		display: block;
+		background-color: $primary-dark;
+
+		&:hover,
+		&:active {
+			border: 1px solid $primary-dark;
+		}
+	}
+}
