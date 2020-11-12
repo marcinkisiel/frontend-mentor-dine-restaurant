@@ -7,10 +7,17 @@
 	width: 245px;
 	height: 64px;
 	font-size: 14px;
+	font-weight: 600;
 	line-height: 64px;
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	text-decoration: none;
 	color: $white;
 	border: 1px solid $white;
+	transition: all 0.2s;
+
+	&:hover {
+		color: $primary-dark;
+		background-color: $white;
+	}
 }

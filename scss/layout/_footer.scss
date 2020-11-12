@@ -1,3 +1,19 @@
-// -----------------------------------------------------------------------------
-// This file contains all styles related to the footer of the site/application.
-// -----------------------------------------------------------------------------
+.footer {
+	padding: 80px 24px;
+	font-size: 14px;
+	color: $white;
+	line-height: 28px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	background-color: $primary-dark;
+
+	&__logo {
+		margin-bottom: 40px;
+	}
+
+	&__column {
+		&--address {
+			margin-bottom: 32px;
+		}
+	}
+}

@@ -1,11 +1,14 @@
 .hero {
+	position: relative;
+
 	&__photo {
 		width: 100%;
 	}
 
 	&__column {
 		position: absolute;
-		top: 40%;
+		top: 30%;
+		left: 0;
 		color: $white;
 	}
 

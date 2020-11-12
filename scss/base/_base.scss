@@ -2,14 +2,22 @@
 // This file contains very basic styles.
 // -----------------------------------------------------------------------------
 
-body {
-	box-sizing: border-box;
-}
-
 *,
 *::before,
 *::after {
 	margin: 0;
 	padding: 0;
 	box-sizing: inherit;
+}
+
+body {
+	box-sizing: border-box;
+}
+
+img {
+	width: 100%;
+}
+
+.logo {
+	width: auto;
 }
