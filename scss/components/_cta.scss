@@ -1,0 +1,17 @@
+.cta {
+	position: relative;
+
+	&__photo {
+		display: block;
+	}
+
+	&__column {
+		position: absolute;
+		top: 25%;
+		color: $white;
+	}
+
+	&__title {
+		margin-bottom: 24px;
+	}
+}

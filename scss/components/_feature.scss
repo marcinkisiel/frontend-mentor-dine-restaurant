@@ -1,0 +1,27 @@
+.feature {
+	&--1 {
+		margin-top: -70px;
+	}
+
+	&__photo {
+		box-shadow: 0px 75px 100px -50px rgba(56, 66, 85, 0.5);
+
+		&--up {
+			position: relative;
+			z-index: 1;
+		}
+	}
+
+	&__pattern-divide {
+		margin-top: 42px;
+	}
+
+	&__title {
+		margin-bottom: 16px;
+	}
+
+	&__text {
+		margin-bottom: 80px;
+		line-height: 25px;
+	}
+}

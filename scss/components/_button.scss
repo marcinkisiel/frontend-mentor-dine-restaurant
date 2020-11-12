@@ -16,7 +16,8 @@
 	border: 1px solid $white;
 	transition: all 0.2s;
 
-	&:hover {
+	&:hover,
+	&:active {
 		color: $primary-dark;
 		background-color: $white;
 	}
