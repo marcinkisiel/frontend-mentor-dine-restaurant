@@ -9,13 +9,10 @@
 @import 'base/base', 'base/fonts', 'base/typography', 'base/helpers';
 
 // 4. Layout-related sections
-@import 'layout/header', 'layout/footer';
+@import 'layout/header', 'layout/hero', 'layout/feature', 'layout/highlights', 'layout/footer';
 
 // 5. Components
-@import 'components/button';
-@import 'components/hero';
-@import 'components/feature';
-@import 'components/cta';
+@import 'components/button', 'components/cta';
 
 // 6. Page-specific styles
 @import 'pages/home';

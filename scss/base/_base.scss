@@ -15,9 +15,11 @@ body {
 }
 
 img {
+	display: block;
 	width: 100%;
 }
 
 .logo {
+	display: inline-block;
 	width: auto;
 }

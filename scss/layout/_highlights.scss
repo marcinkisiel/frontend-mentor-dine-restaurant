@@ -1,0 +1,43 @@
+.highlights {
+	padding-top: 72px;
+	padding-bottom: 72px;
+	color: $white;
+	background-color: $primary-dark;
+
+	&__intro {
+		margin-bottom: 64px;
+	}
+
+	&__title {
+		margin-bottom: 16px;
+	}
+
+	&__text {
+		line-height: 25px;
+	}
+}
+
+.menu-item {
+	&__graphic {
+		margin-bottom: 32px;
+	}
+
+	&__info {
+		margin-bottom: 24px;
+		padding-bottom: 24px;
+		border-bottom: 1px solid rgba($white, 0.15);
+	}
+
+	&__title {
+		margin-bottom: 4px;
+		font-size: 18px;
+		line-height: 28px;
+		letter-spacing: 0.23px;
+	}
+
+	&:last-child &__info {
+		margin-bottom: 0;
+		padding-bottom: 0;
+		border-bottom: none;
+	}
+}
