@@ -1,6 +1,14 @@
 .feature {
 	&--1 {
 		margin-top: -70px;
+
+		@media (min-width: $md) {
+			margin-top: -100px;
+		}
+	}
+
+	&__column {
+		position: relative;
 	}
 
 	&__photo {
@@ -14,14 +22,37 @@
 
 	&__pattern-divide {
 		margin-top: 42px;
+
+		@media (min-width: $md) {
+			margin-top: 54px;
+		}
 	}
 
 	&__title {
 		margin-bottom: 16px;
+
+		@media (min-width: $md) {
+			width: 70%;
+			margin-left: auto;
+			margin-right: auto;
+		}
 	}
 
 	&__text {
 		margin-bottom: 80px;
 		line-height: 25px;
+
+		@media (min-width: $md) {
+			width: 81%;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 120px;
+			line-height: 30px;
+		}
+	}
+
+	&__pattern-lines {
+		right: -56px;
+		bottom: 56px;
 	}
 }

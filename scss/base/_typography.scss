@@ -36,4 +36,10 @@ h2 {
 	font-weight: 700;
 	line-height: 40px;
 	letter-spacing: 0.4px;
+
+	@media (min-width: $md) {
+		font-size: 40px;
+		line-height: 56px;
+		letter-spacing: 0.5px;
+	}
 }
