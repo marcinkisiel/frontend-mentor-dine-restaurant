@@ -7,13 +7,36 @@
 	text-transform: uppercase;
 	background-color: $primary-dark;
 
+	@media (min-width: $md) {
+		display: grid;
+		grid-template-columns: 1fr 2fr;
+		grid-template-rows: auto;
+		grid-template-areas: 'logo address' 'logo open-times';
+		padding: 64px 39px;
+		text-align: left;
+	}
+
 	&__logo {
 		margin-bottom: 40px;
+
+		@media (min-width: $md) {
+			grid-area: logo;
+		}
 	}
 
 	&__column {
 		&--address {
 			margin-bottom: 32px;
+
+			@media (min-width: $md) {
+				grid-area: address;
+			}
+		}
+
+		&--open-times {
+			@media (min-width: $md) {
+				grid-area: open-times;
+			}
 		}
 	}
 }
