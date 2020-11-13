@@ -8,6 +8,16 @@
 	}
 }
 
+.pattern-curve {
+	display: none;
+
+	@media (min-width: $md) {
+		display: block;
+		position: absolute;
+		width: 895px;
+	}
+}
+
 .pattern-lines {
 	display: none;
 
