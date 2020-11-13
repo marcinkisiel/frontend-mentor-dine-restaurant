@@ -10,6 +10,12 @@ body {
 	letter-spacing: 0.19px;
 	text-align: center;
 	color: $secondary-darker;
+
+	@media (min-width: $md) {
+		font-size: 18px;
+		line-height: 30px;
+		letter-spacing: 0.23px;
+	}
 }
 
 h1 {
@@ -17,6 +23,12 @@ h1 {
 	font-weight: 300;
 	line-height: 40px;
 	letter-spacing: 0.4px;
+
+	@media (min-width: $md) {
+		font-size: 48px;
+		line-height: 64px;
+		letter-spacing: 0.6px;
+	}
 }
 
 h2 {
