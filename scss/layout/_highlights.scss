@@ -9,6 +9,17 @@
 		padding-bottom: 96px;
 	}
 
+	@media (min-width: $lg) {
+		padding-top: 200px;
+		padding-bottom: 120px;
+	}
+
+	&__container {
+		@media (min-width: $lg) {
+			display: flex;
+		}
+	}
+
 	&__intro {
 		margin-bottom: 64px;
 
@@ -17,10 +28,18 @@
 			margin-left: auto;
 			margin-right: auto;
 		}
+
+		@media (min-width: $lg) {
+			flex-basis: 50%;
+		}
 	}
 
 	&__title {
 		margin-bottom: 16px;
+
+		@media (min-width: $lg) {
+			width: 80%;
+		}
 	}
 
 	&__text {
@@ -28,6 +47,17 @@
 
 		@media (min-width: $md) {
 			line-height: 30px;
+		}
+
+		@media (min-width: $lg) {
+			width: 85%;
+		}
+	}
+
+	&__column {
+		@media (min-width: $lg) {
+			flex-basis: 50%;
+			padding-top: 55px;
 		}
 	}
 }
