@@ -1,4 +1,10 @@
 .feature {
+	@media (min-width: $lg) {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
 	&--1 {
 		margin-top: -70px;
 
@@ -9,10 +15,22 @@
 
 	&__column {
 		position: relative;
+
+		@media (min-width: $lg) {
+			flex-basis: 50%;
+		}
+
+		&--text {
+			flex-basis: 42%;
+		}
 	}
 
 	&__photo {
 		box-shadow: 0px 75px 100px -50px rgba(56, 66, 85, 0.5);
+
+		@media (min-width: $lg) {
+			width: 540px;
+		}
 
 		&--up {
 			position: relative;
@@ -36,6 +54,12 @@
 			margin-left: auto;
 			margin-right: auto;
 		}
+
+		@media (min-width: $lg) {
+			width: 90%;
+			margin-left: 0;
+			margin-right: 0;
+		}
 	}
 
 	&__text {
@@ -48,6 +72,11 @@
 			margin-right: auto;
 			margin-bottom: 120px;
 			line-height: 30px;
+		}
+
+		@media (min-width: $lg) {
+			width: 464px;
+			margin: 0;
 		}
 	}
 
