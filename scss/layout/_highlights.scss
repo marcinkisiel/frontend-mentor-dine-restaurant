@@ -54,13 +54,9 @@
 			margin-bottom: 0;
 
 			&::after {
-				content: '';
-				position: absolute;
+				@include after-line(32px);
 				top: 18px;
 				left: 128px;
-				width: 32px;
-				height: 1px;
-				background-color: $primary-light;
 			}
 		}
 	}

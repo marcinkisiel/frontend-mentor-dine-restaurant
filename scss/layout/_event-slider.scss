@@ -1,10 +1,16 @@
 .event-slider {
+	position: relative;
 	padding-top: 80px;
 	padding-bottom: 120px;
 
 	&__menu {
 		display: flex;
 		flex-direction: column;
+
+		@media (min-width: $md) {
+			flex-direction: row;
+			justify-content: space-between;
+		}
 	}
 
 	&__menu-item {
@@ -16,13 +22,27 @@
 		color: rgba($slider-gray, 0.5);
 
 		&--active {
+			position: relative;
 			color: $slider-gray;
+
+			&::after {
+				@include after-line(48px);
+				left: 50%;
+				bottom: 0;
+				transform: translateX(-50%);
+			}
 		}
 	}
 
 	&__photo {
 		margin-bottom: 48px;
 		box-shadow: 0px 75px 100px -50px rgba(56, 66, 85, 0.5);
+	}
+
+	&__body {
+		width: 82%;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	&__title {
@@ -32,6 +52,10 @@
 	&__text {
 		margin-bottom: 32px;
 		line-height: 25px;
+
+		@media (min-width: $md) {
+			line-height: 30px;
+		}
 	}
 
 	&__button {
@@ -41,6 +65,18 @@
 		&:hover,
 		&:active {
 			border: 1px solid $primary-dark;
+		}
+	}
+
+	&__pattern-curve-top-right {
+		@media (min-width: $md) {
+			top: 0;
+			right: 51%;
+		}
+	}
+
+	&__pattern-lines {
+		@media (min-width: $md) {
 		}
 	}
 }

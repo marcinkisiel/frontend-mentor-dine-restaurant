@@ -1,3 +1,7 @@
-// -----------------------------------------------------------------------------
-// This file contains all application-wide Sass mixins.
-// -----------------------------------------------------------------------------
+@mixin after-line($width) {
+	content: '';
+	position: absolute;
+	width: $width;
+	height: 1px;
+	background-color: $primary-light;
+}
