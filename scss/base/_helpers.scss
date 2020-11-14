@@ -13,14 +13,14 @@
 
 .container {
 	max-width: 1110px;
-	width: 100%;
-	padding: 0 24px;
+	// width: 100%;
+	// padding: 0 24px;
 
 	@media (min-width: $md) {
-		padding: 0 97px;
+		// padding: 0 97px;
 	}
 
 	@media (min-width: $lg) {
-		padding: 0 11.5%;
+		margin: 0 auto;
 	}
 }

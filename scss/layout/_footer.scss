@@ -1,5 +1,5 @@
 .footer {
-	padding: 80px 24px;
+	// padding: 80px 24px;
 	font-size: 14px;
 	color: $white;
 	line-height: 28px;
@@ -8,12 +8,22 @@
 	background-color: $primary-dark;
 
 	@media (min-width: $md) {
-		display: grid;
 		grid-template-columns: 1fr 2fr;
 		grid-template-rows: auto;
 		grid-template-areas: 'logo address' 'logo open-times';
-		padding: 64px 39px;
+		// padding: 64px 39px;
 		text-align: left;
+	}
+
+	&__container {
+		display: grid;
+
+		@media (min-width: $lg) {
+			grid-template-columns: 1fr 1fr 1fr;
+			grid-template-areas: 'logo address open-times';
+			width: 100%;
+			padding: 78px 0;
+		}
 	}
 
 	&__logo {
@@ -30,6 +40,10 @@
 
 			@media (min-width: $md) {
 				grid-area: address;
+			}
+
+			@media (min-width: $lg) {
+				margin-bottom: 0;
 			}
 		}
 
