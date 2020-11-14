@@ -4,8 +4,19 @@
 	color: $white;
 	background-color: $primary-dark;
 
+	@media (min-width: $md) {
+		padding-top: 96px;
+		padding-bottom: 96px;
+	}
+
 	&__intro {
 		margin-bottom: 64px;
+
+		@media (min-width: $md) {
+			width: 82%;
+			margin-left: auto;
+			margin-right: auto;
+		}
 	}
 
 	&__title {
@@ -14,18 +25,65 @@
 
 	&__text {
 		line-height: 25px;
+
+		@media (min-width: $md) {
+			line-height: 30px;
+		}
 	}
 }
 
 .menu-item {
+	@media (min-width: $md) {
+		display: flex;
+		position: relative;
+		margin-bottom: 24px;
+		text-align: left;
+		border-bottom: 1px solid rgba($white, 0.15);
+
+		&:last-child {
+			margin-bottom: 0;
+			border-bottom: none;
+		}
+	}
+
 	&__graphic {
 		margin-bottom: 32px;
+
+		@media (min-width: $md) {
+			flex-basis: 33%;
+			margin-bottom: 0;
+
+			&::after {
+				content: '';
+				position: absolute;
+				top: 18px;
+				left: 128px;
+				width: 32px;
+				height: 1px;
+				background-color: $primary-light;
+			}
+		}
+	}
+
+	&__photo {
+		@media (min-width: $md) {
+			position: relative;
+			width: 128px;
+		}
 	}
 
 	&__info {
 		margin-bottom: 24px;
 		padding-bottom: 24px;
 		border-bottom: 1px solid rgba($white, 0.15);
+
+		@media (min-width: $md) {
+			flex-basis: 66%;
+			margin-top: 4px;
+			margin-bottom: 28px;
+			padding-bottom: 0;
+			border-bottom: none;
+		}
 	}
 
 	&__title {
@@ -33,6 +91,12 @@
 		font-size: 18px;
 		line-height: 28px;
 		letter-spacing: 0.23px;
+	}
+
+	&__text {
+		font-size: 15px;
+		line-height: 28px;
+		letter-spacing: 0.19px;
 	}
 
 	&:last-child &__info {

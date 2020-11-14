@@ -13,7 +13,7 @@ The design includes mobile, tablet & desktop views for a **Homepage** and **Book
 
 ### current status
 
-unfinished (only mobile view for homepage)
+unfinished (only mobile and tablet views for homepage)
 
 ### implementation time
 
