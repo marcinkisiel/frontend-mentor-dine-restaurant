@@ -9,7 +9,9 @@
 	&__column {
 		position: absolute;
 		top: 30%;
-		left: 0;
+		left: 50%;
+		transform: translateX(-50%);
+		// left: ;
 		color: $white;
 
 		@media (min-width: $md) {
