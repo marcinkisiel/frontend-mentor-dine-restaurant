@@ -16,6 +16,10 @@ body {
 		line-height: 30px;
 		letter-spacing: 0.23px;
 	}
+
+	@media (min-width: $lg) {
+		text-align: left;
+	}
 }
 
 h1 {
@@ -28,6 +32,12 @@ h1 {
 		font-size: 48px;
 		line-height: 64px;
 		letter-spacing: 0.6px;
+	}
+
+	@media (min-width: $lg) {
+		font-size: 64px;
+		line-height: 72px;
+		letter-spacing: 0.8px;
 	}
 }
 
