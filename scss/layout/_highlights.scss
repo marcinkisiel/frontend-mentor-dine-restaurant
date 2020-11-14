@@ -1,8 +1,10 @@
 .highlights {
+	position: relative;
 	padding-top: 72px;
 	padding-bottom: 72px;
 	color: $white;
 	background-color: $primary-dark;
+	z-index: 1;
 
 	@media (min-width: $md) {
 		padding-top: 96px;
@@ -10,6 +12,7 @@
 	}
 
 	@media (min-width: $lg) {
+		margin-top: -80px;
 		padding-top: 200px;
 		padding-bottom: 120px;
 	}
