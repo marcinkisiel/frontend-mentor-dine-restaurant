@@ -171,9 +171,11 @@ h2 { font-size: 32px; font-weight: 700; line-height: 40px; letter-spacing: 0.4px
 
 @media (min-width: 768px) { .event-slider__menu { flex-direction: row; justify-content: space-between; margin-bottom: 32px; } }
 
-@media (min-width: 992px) { .event-slider__menu { flex-direction: column; justify-content: flex-start; grid-area: menu; } }
+@media (min-width: 992px) { .event-slider__menu { flex-direction: column; justify-content: flex-start; align-items: flex-start; grid-area: menu; } }
 
-.event-slider__menu-item { margin-bottom: 16px; font-size: 14px; font-weight: 600; line-height: 28px; letter-spacing: 2px; text-transform: uppercase; color: rgba(76, 76, 76, 0.5); }
+.event-slider__menu-item { margin-bottom: 16px; font-size: 14px; font-weight: 600; line-height: 28px; letter-spacing: 2px; text-transform: uppercase; color: rgba(76, 76, 76, 0.5); cursor: pointer; transition: all 0.2s; }
+
+.event-slider__menu-item:hover { color: #4c4c4c; }
 
 .event-slider__menu-item:last-of-type { margin-bottom: 24px; }
 

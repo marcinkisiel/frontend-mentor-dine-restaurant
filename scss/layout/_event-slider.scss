@@ -41,6 +41,7 @@
 		@media (min-width: $lg) {
 			flex-direction: column;
 			justify-content: flex-start;
+			align-items: flex-start;
 			grid-area: menu;
 		}
 	}
@@ -53,6 +54,12 @@
 		letter-spacing: 2px;
 		text-transform: uppercase;
 		color: rgba($slider-gray, 0.5);
+		cursor: pointer;
+		transition: $transition;
+
+		&:hover {
+			color: $slider-gray;
+		}
 
 		&:last-of-type {
 			margin-bottom: 24px;
