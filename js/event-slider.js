@@ -6,6 +6,9 @@ var eventSliderDown = new Swiper('.swiper-container--down', {
 	loop: false,
 });
 
+eventSliderDown.controller.control = eventSliderUp;
+eventSliderUp.controller.control = eventSliderDown;
+
 const menu1 = document.querySelector('.event-slider__menu-item--1');
 const menu2 = document.querySelector('.event-slider__menu-item--2');
 const menu3 = document.querySelector('.event-slider__menu-item--3');
