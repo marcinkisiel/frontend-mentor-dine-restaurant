@@ -14,12 +14,17 @@
 	}
 
 	&__menu-item {
+		margin-bottom: 16px;
 		font-size: 14px;
 		font-weight: 600;
 		line-height: 28px;
 		letter-spacing: 2px;
 		text-transform: uppercase;
 		color: rgba($slider-gray, 0.5);
+
+		&:last-of-type {
+			margin-bottom: 24px;
+		}
 
 		&--active {
 			position: relative;
@@ -40,7 +45,6 @@
 	}
 
 	&__body {
-		width: 82%;
 		margin-left: auto;
 		margin-right: auto;
 	}
