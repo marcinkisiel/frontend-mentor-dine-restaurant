@@ -1,0 +1,31 @@
+.header {
+	padding-top: 56px;
+	padding-bottom: 228px;
+	color: $white;
+	background: url(../images/homepage/ready-bg-mobile.jpg) no-repeat top center / cover;
+
+	@media (min-width: $md) {
+		background: url(../images/homepage/ready-bg-tablet.jpg) no-repeat center / cover;
+	}
+
+	@media (min-width: $lg) {
+		background: url(../images/homepage/ready-bg-desktop.jpg) no-repeat center / cover;
+	}
+
+	&__logo {
+		width: 82px;
+		margin-bottom: 40px;
+	}
+
+	&__title {
+		margin-bottom: 16px;
+	}
+
+	&__text {
+		margin-bottom: 24px;
+	}
+
+	&__button {
+		display: inline-block;
+	}
+}

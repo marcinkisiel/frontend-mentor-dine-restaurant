@@ -272,3 +272,17 @@ h2 { font-size: 32px; font-weight: 700; line-height: 40px; letter-spacing: 0.4px
 .pattern-lines { display: none; }
 
 @media (min-width: 768px) { .pattern-lines { display: block; position: absolute; width: 160px; z-index: 3; } }
+
+.header { padding-top: 56px; padding-bottom: 228px; color: #fff; background: url(../images/homepage/ready-bg-mobile.jpg) no-repeat top center/cover; }
+
+@media (min-width: 768px) { .header { background: url(../images/homepage/ready-bg-tablet.jpg) no-repeat center/cover; } }
+
+@media (min-width: 992px) { .header { background: url(../images/homepage/ready-bg-desktop.jpg) no-repeat center/cover; } }
+
+.header__logo { width: 82px; margin-bottom: 40px; }
+
+.header__title { margin-bottom: 16px; }
+
+.header__text { margin-bottom: 24px; }
+
+.header__button { display: inline-block; }
