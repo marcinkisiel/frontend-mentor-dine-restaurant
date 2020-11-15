@@ -8,6 +8,7 @@
 		<link rel="stylesheet" href="css/main.css" />
 		<title>Frontend Mentor | Dine Website Challenge</title>
 	</head>
+
 	<body>
 		<header class="hero">
 			<picture class="hero__picture">
@@ -65,6 +66,7 @@
 						</p>
 					</div>
 				</article>
+
 				<article class="feature feature--2">
 					<div class="feature__column feature__column--text order-2">
 						<picture class="feature__picture">
@@ -112,6 +114,7 @@
 						season.
 					</p>
 				</div>
+
 				<div class="highlights__column">
 					<article class="menu-item">
 						<div class="menu-item__graphic">
@@ -133,6 +136,7 @@
 							<p class="menu-item__text">Our locally sourced salmon served with a refreshing buckwheat summer salad.</p>
 						</div>
 					</article>
+
 					<article class="menu-item">
 						<div class="menu-item__graphic">
 							<picture class="menu-item__picture">
@@ -153,6 +157,7 @@
 							<p class="menu-item__text">Our prime beef served to your taste with a delicious choice of seasonal sides.</p>
 						</div>
 					</article>
+
 					<article class="menu-item">
 						<div class="menu-item__graphic">
 							<picture class="menu-item__picture">
@@ -177,7 +182,7 @@
 			</div>
 		</section>
 
-		<section class="event-slider container swiper-container">
+		<section class="event-slider container">
 			<img
 				class="event-slider__pattern-curve-top-right pattern-curve"
 				src="./images/patterns/pattern-curve-top-right.svg"
@@ -185,105 +190,107 @@
 			/>
 			<img class="event-slider__pattern-lines pattern-lines" src="./images/patterns/pattern-lines.svg" alt="Pattern lines" />
 
-			<div class="event-slider__wrapper swiper-wrapper">
-				<div class="event-slider__slide event-slider__slide--1 swiper-slide">
-					<div class="event-slider__column">
-						<picture class="event-slider__picture">
-							<source
-								media="(min-width: 992px)"
-								srcset="./images/homepage/family-gathering-desktop.jpg, ./images/homepage/family-gathering-desktop@2x.jpg 2x"
-							/>
-							<source
-								media="(min-width: 768px)"
-								srcset="./images/homepage/family-gathering-tablet.jpg, ./images/homepage/family-gathering-tablet@2x.jpg 2x"
-							/>
-							<img
-								class="event-slider__photo"
-								src="./images/homepage/family-gathering-mobile.jpg"
-								srcset="./images/homepage/family-gathering-mobile.jpg, ./images/homepage/family-gathering-mobile@2x.jpg 2x"
-								alt="Family gathering"
-							/>
-						</picture>
+			<div class="swiper-container">
+				<div class="event-slider__wrapper swiper-wrapper">
+					<div class="event-slider__slide event-slider__slide--1 swiper-slide">
+						<div class="event-slider__column">
+							<picture class="event-slider__picture">
+								<source
+									media="(min-width: 992px)"
+									srcset="./images/homepage/family-gathering-desktop.jpg, ./images/homepage/family-gathering-desktop@2x.jpg 2x"
+								/>
+								<source
+									media="(min-width: 768px)"
+									srcset="./images/homepage/family-gathering-tablet.jpg, ./images/homepage/family-gathering-tablet@2x.jpg 2x"
+								/>
+								<img
+									class="event-slider__photo"
+									src="./images/homepage/family-gathering-mobile.jpg"
+									srcset="./images/homepage/family-gathering-mobile.jpg, ./images/homepage/family-gathering-mobile@2x.jpg 2x"
+									alt="Family gathering"
+								/>
+							</picture>
+						</div>
+					</div>
+
+					<div class="event-slider__slide event-slider__slide--2 swiper-slide">
+						<div class="event-slider__column">
+							<picture class="event-slider__picture">
+								<source
+									media="(min-width: 992px)"
+									srcset="./images/homepage/special-events-desktop.jpg, ./images/homepage/special-events-desktop@2x.jpg 2x"
+								/>
+								<source
+									media="(min-width: 768px)"
+									srcset="./images/homepage/special-events-tablet.jpg, ./images/homepage/special-events-tablet@2x.jpg 2x"
+								/>
+								<img
+									class="event-slider__photo"
+									src="./images/homepage/special-events-mobile.jpg"
+									srcset="./images/homepage/special-events-mobile.jpg, ./images/homepage/special-events-mobile@2x.jpg 2x"
+									alt="Family gathering"
+								/>
+							</picture>
+						</div>
+					</div>
+
+					<div class="event-slider__slide event-slider__slide--3 swiper-slide">
+						<div class="event-slider__column">
+							<picture class="event-slider__picture">
+								<source
+									media="(min-width: 992px)"
+									srcset="./images/homepage/social-events-desktop.jpg, ./images/homepage/social-events-desktop@2x.jpg 2x"
+								/>
+								<source
+									media="(min-width: 768px)"
+									srcset="./images/homepage/social-events-tablet.jpg, ./images/homepage/social-events-tablet@2x.jpg 2x"
+								/>
+								<img
+									class="event-slider__photo"
+									src="./images/homepage/social-events-mobile.jpg"
+									srcset="./images/homepage/social-events-mobile.jpg, ./images/homepage/social-events-mobile@2x.jpg 2x"
+									alt="Family gathering"
+								/>
+							</picture>
+						</div>
 					</div>
 				</div>
 
-				<div class="event-slider__slide event-slider__slide--2 swiper-slide">
-					<div class="event-slider__column">
-						<picture class="event-slider__picture">
-							<source
-								media="(min-width: 992px)"
-								srcset="./images/homepage/special-events-desktop.jpg, ./images/homepage/special-events-desktop@2x.jpg 2x"
-							/>
-							<source
-								media="(min-width: 768px)"
-								srcset="./images/homepage/special-events-tablet.jpg, ./images/homepage/special-events-tablet@2x.jpg 2x"
-							/>
-							<img
-								class="event-slider__photo"
-								src="./images/homepage/special-events-mobile.jpg"
-								srcset="./images/homepage/special-events-mobile.jpg, ./images/homepage/special-events-mobile@2x.jpg 2x"
-								alt="Family gathering"
-							/>
-						</picture>
-					</div>
+				<div class="event-slider__menu">
+					<span class="event-slider__menu-item event-slider__menu-item--1 event-slider__menu-item--active">Family Gathering</span>
+					<span class="event-slider__menu-item event-slider__menu-item--2">Special Events</span>
+					<span class="event-slider__menu-item event-slider__menu-item--3">Social Events</span>
 				</div>
 
-				<div class="event-slider__slide event-slider__slide--3 swiper-slide">
-					<div class="event-slider__column">
-						<picture class="event-slider__picture">
-							<source
-								media="(min-width: 992px)"
-								srcset="./images/homepage/social-events-desktop.jpg, ./images/homepage/social-events-desktop@2x.jpg 2x"
-							/>
-							<source
-								media="(min-width: 768px)"
-								srcset="./images/homepage/social-events-tablet.jpg, ./images/homepage/social-events-tablet@2x.jpg 2x"
-							/>
-							<img
-								class="event-slider__photo"
-								src="./images/homepage/social-events-mobile.jpg"
-								srcset="./images/homepage/social-events-mobile.jpg, ./images/homepage/social-events-mobile@2x.jpg 2x"
-								alt="Family gathering"
-							/>
-						</picture>
+				<div class="event-slider__wrapper swiper-wrapper">
+					<div class="event-slider__slide event-slider__slide--1 swiper-slide">
+						<div class="event-slider__body">
+							<h2 class="event-slider__title">Family Gathering</h2>
+							<p class="event-slider__text">
+								We love catering for entire families. So please bring everyone along for a special meal with your loved ones. We’ll
+								provide a memorable experience for all.
+							</p>
+						</div>
 					</div>
-				</div>
-			</div>
 
-			<div class="event-slider__menu">
-				<span class="event-slider__menu-item event-slider__menu-item--1 event-slider__menu-item--active">Family Gathering</span>
-				<span class="event-slider__menu-item event-slider__menu-item--2">Special Events</span>
-				<span class="event-slider__menu-item event-slider__menu-item--3">Social Events</span>
-			</div>
-
-			<div class="event-slider__wrapper swiper-wrapper">
-				<div class="event-slider__slide event-slider__slide--1 swiper-slide">
-					<div class="event-slider__body">
-						<h2 class="event-slider__title">Family Gathering</h2>
-						<p class="event-slider__text">
-							We love catering for entire families. So please bring everyone along for a special meal with your loved ones. We’ll
-							provide a memorable experience for all.
-						</p>
+					<div class="event-slider__slide event-slider__slide--2 swiper-slide">
+						<div class="event-slider__body">
+							<h2 class="event-slider__title">Special Events</h2>
+							<p class="event-slider__text">
+								Whether it’s a romantic dinner or special date you’re celebrating with others we’ll look after you. We’ll be sure to
+								mark your special date with an unforgettable meal.
+							</p>
+						</div>
 					</div>
-				</div>
 
-				<div class="event-slider__slide event-slider__slide--2 swiper-slide">
-					<div class="event-slider__body">
-						<h2 class="event-slider__title">Special Events</h2>
-						<p class="event-slider__text">
-							Whether it’s a romantic dinner or special date you’re celebrating with others we’ll look after you. We’ll be sure to mark
-							your special date with an unforgettable meal.
-						</p>
-					</div>
-				</div>
-
-				<div class="event-slider__slide event-slider__slide--2 swiper-slide">
-					<div class="event-slider__body">
-						<h2 class="event-slider__title">Social Events</h2>
-						<p class="event-slider__text">
-							Are you looking to have a larger social event? No problem! We’re more than happy to cater for big parties. We’ll work with
-							you to make your event a hit with everyone.
-						</p>
+					<div class="event-slider__slide event-slider__slide--2 swiper-slide">
+						<div class="event-slider__body">
+							<h2 class="event-slider__title">Social Events</h2>
+							<p class="event-slider__text">
+								Are you looking to have a larger social event? No problem! We’re more than happy to cater for big parties. We’ll work
+								with you to make your event a hit with everyone.
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>

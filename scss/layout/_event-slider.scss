@@ -3,6 +3,10 @@
 	padding-top: 80px;
 	padding-bottom: 120px;
 
+	@media (min-width: $md) {
+		padding-top: 120px;
+	}
+
 	&__menu {
 		display: flex;
 		flex-direction: column;
@@ -10,6 +14,7 @@
 		@media (min-width: $md) {
 			flex-direction: row;
 			justify-content: space-between;
+			margin-bottom: 32px;
 		}
 	}
 
@@ -42,11 +47,19 @@
 	&__photo {
 		margin-bottom: 48px;
 		box-shadow: 0px 75px 100px -50px rgba(56, 66, 85, 0.5);
+
+		@media (min-width: $md) {
+			margin-bottom: 56px;
+		}
 	}
 
 	&__body {
 		margin-left: auto;
 		margin-right: auto;
+
+		@media (min-width: $md) {
+			width: 81%;
+		}
 	}
 
 	&__title {
@@ -81,6 +94,8 @@
 
 	&__pattern-lines {
 		@media (min-width: $md) {
+			top: 82px;
+			left: -58px;
 		}
 	}
 }
