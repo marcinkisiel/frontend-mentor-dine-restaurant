@@ -1,4 +1,8 @@
-var eventSlider = new Swiper('.swiper-container', {
+var eventSliderUp = new Swiper('.swiper-container--up', {
+	loop: false,
+});
+
+var eventSliderDown = new Swiper('.swiper-container--down', {
 	loop: false,
 });
 
@@ -14,7 +18,8 @@ const slideActiveClass = 'swiper-slide-active';
 const menuActiveClass = 'event-slider__menu-item--active';
 
 function goToSlide(number) {
-	eventSlider.slideTo(number);
+	eventSliderUp.slideTo(number);
+	eventSliderDown.slideTo(number);
 }
 
 menu1.addEventListener('click', function () {

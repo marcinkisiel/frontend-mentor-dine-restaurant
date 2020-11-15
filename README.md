@@ -2,9 +2,9 @@
 
 ## Frontend Mentor
 
-<!-- ### live demo
+### live demo
 
-[Dine restaurant website]() -->
+[Dine restaurant website](https://marcinkisiel.github.io/frontend-mentor-dine-restaurant/)
 
 ### description
 
@@ -13,7 +13,7 @@ The design includes mobile, tablet & desktop views for a **Homepage** and **Book
 
 ### current status
 
-unfinished (only mobile and tablet views for homepage)
+unfinished (only views for **Homepage**)
 
 ### implementation time
 
