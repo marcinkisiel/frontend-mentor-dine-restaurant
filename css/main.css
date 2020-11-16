@@ -57,7 +57,7 @@ legend, input, select { font-family: "Spartan", sans-serif; font-size: 18px; fon
 
 @media (min-width: 768px) { .hero__logo { height: 40px; } }
 
-@media (min-width: 992px) { .hero__logo { margin-bottom: 153px; } }
+@media (min-width: 992px) { .hero__logo { margin-bottom: 153px; margin-right: 0; margin-left: 0; } }
 
 .hero__title { margin-bottom: 24px; }
 
@@ -237,7 +237,7 @@ legend, input, select { font-family: "Spartan", sans-serif; font-size: 18px; fon
 
 .footer__logo { margin-bottom: 40px; }
 
-@media (min-width: 768px) { .footer__logo { grid-area: logo; } }
+@media (min-width: 768px) { .footer__logo { grid-area: logo; margin-right: 0; margin-left: 0; } }
 
 .footer__column--address { margin-bottom: 32px; }
 
