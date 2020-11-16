@@ -42,7 +42,36 @@
 }
 
 .form {
+	&__input,
+	&__select {
+		width: 100%;
+		height: 45px;
+		margin-bottom: 32px;
+		padding-left: 16px;
+		border-bottom: 1px solid #8e8e8e;
+		cursor: pointer;
+
+		&::placeholder {
+			color: rgba($primary-dark, 0.5);
+		}
+	}
+
+	&__legend {
+		text-align: left;
+	}
+
+	&__fieldset-container {
+		display: flex;
+		justify-content: space-between;
+	}
+	&__label {
+		&--row + &--row {
+			margin-left: 14px;
+		}
+	}
+
 	&__submit {
 		background-color: $primary-dark;
+		border: 1px solid $primary-dark;
 	}
 }

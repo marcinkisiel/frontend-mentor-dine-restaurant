@@ -53,3 +53,16 @@ h2 {
 		letter-spacing: 0.5px;
 	}
 }
+
+// Forms
+
+legend,
+input,
+select {
+	font-family: $spartan;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 28px;
+	letter-spacing: 0.23px;
+	color: $primary-dark;
+}

@@ -27,49 +27,114 @@
 				<div class="form">
 					<form class="form__body" action="#" method="get">
 						<label class="form__label" for="name">
-							<input class="form__text form__text--name" type="text" id="name" name="name" aria-label="Name" placeholder="Name" />
+							<input
+								class="form__input form__text form__text--name"
+								type="text"
+								id="name"
+								name="name"
+								aria-label="Name"
+								placeholder="Name"
+							/>
 						</label>
 
 						<label class="form__label" for="email">
-							<input class="form__text form__text--email" type="email" id="email" name="email" aria-label="Email" placeholder="Email" />
+							<input
+								class="form__input form__text form__text--email"
+								type="email"
+								id="email"
+								name="email"
+								aria-label="Email"
+								placeholder="Email"
+							/>
 						</label>
 
 						<fieldset class="form__fieldset form__fieldset--date">
 							<legend class="form__legend">Pick a date</legend>
-							<input
-								class="form__number form__number--month"
-								type="number"
-								name="month"
-								id="month"
-								min="01"
-								max="12"
-								placeholder="MM"
-							/>
-							<input class="form__number form__number--day" type="number" name="day" id="day" min="01" max="31" placeholder="DD" />
-							<input class="form__number form__number--year" type="number" id="year" name="year" min="2020" placeholder="YYYY" />
+							<div class="form__fieldset-container">
+								<label class="form__label form__label--row" for="month">
+									<input
+										class="form__input form__number form__number--month"
+										type="number"
+										name="month"
+										id="month"
+										min="01"
+										max="12"
+										placeholder="MM"
+									/>
+								</label>
+
+								<label class="form__label form__label--row" for="day">
+									<input
+										class="form__input form__number form__number--day"
+										type="number"
+										name="day"
+										id="day"
+										min="01"
+										max="31"
+										placeholder="DD"
+									/>
+								</label>
+
+								<label class="form__label form__label--row" for="year">
+									<input
+										class="form__input form__number form__number--year"
+										type="number"
+										id="year"
+										name="year"
+										min="2020"
+										placeholder="YYYY"
+									/>
+								</label>
+							</div>
 						</fieldset>
 
 						<fieldset class="form__fieldset form__fieldset--time">
 							<legend class="form__legend">Pick a time</legend>
-							<input class="form__number form__number--hour" type="number" name="hour" id="hour" min="00" max="11" placeholder="09" />
-							<input
-								class="form__number form__number--minutes"
-								type="number"
-								name="minutes"
-								id="minutes"
-								min="00"
-								max="59"
-								placeholder="00"
-							/>
-							<select class="form__select" name="am-pm" id="am-pm">
-								<option class="form__option" value="am">AM</option>
-								<option class="form__option" value="pm">PM</option>
-							</select>
+							<div class="form__fieldset-container">
+								<label class="form__label form__label--row" for="hour">
+									<input
+										class="form__input form__number form__number--hour"
+										type="number"
+										name="hour"
+										id="hour"
+										min="00"
+										max="11"
+										placeholder="09"
+									/>
+								</label>
+
+								<label class="form__label form__label--row" for="minutes">
+									<input
+										class="form__input form__number form__number--minutes"
+										type="number"
+										name="minutes"
+										id="minutes"
+										min="00"
+										max="59"
+										placeholder="00"
+									/>
+								</label>
+
+								<label class="form__label form__label--row" for="am-pm">
+									<select class="form__select" name="am-pm" id="am-pm">
+										<option class="form__option" value="am">AM</option>
+										<option class="form__option" value="pm">PM</option>
+									</select>
+								</label>
+							</div>
 						</fieldset>
 
 						<div class="form__counter counter">
 							<label class="counter__label" for="counter">
-								<input class="counter__input" type="number" name="counter" id="counter" placeholder="2" min="2" max="10" />
+								<input
+									class="form__input counter__input"
+									type="number"
+									name="counter"
+									id="counter"
+									placeholder="2"
+									min="2"
+									max="10"
+								/>
 								people
 							</label>
 						</div>
