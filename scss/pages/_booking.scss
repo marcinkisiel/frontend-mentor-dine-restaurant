@@ -31,7 +31,7 @@
 }
 
 .main {
-	height: 534px;
+	height: 660px;
 
 	&__container {
 		margin-top: -136px;
@@ -49,6 +49,7 @@
 		margin-bottom: 32px;
 		padding-left: 16px;
 		border-bottom: 1px solid #8e8e8e;
+		background-color: $white;
 		cursor: pointer;
 
 		&::placeholder {
@@ -62,16 +63,50 @@
 
 	&__fieldset-container {
 		display: flex;
-		justify-content: space-between;
+		// justify-content: space-between;
 	}
 	&__label {
+		width: 100%;
+
 		&--row + &--row {
 			margin-left: 14px;
 		}
 	}
 
+	&__number {
+		&--year {
+			min-width: 88px;
+		}
+	}
+
+	&__select {
+		min-width: 88px;
+	}
+
 	&__submit {
 		background-color: $primary-dark;
 		border: 1px solid $primary-dark;
+	}
+}
+
+.counter {
+	margin-bottom: 32px;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 28px;
+	letter-spacing: 0.23px;
+	color: #151515;
+	border-bottom: 1px solid $primary-dark;
+
+	&__input {
+		display: inline-block;
+		width: 30px;
+		margin-bottom: 0;
+		border-bottom: none;
+
+		&::placeholder {
+			font-weight: 700;
+			color: #151515;
+		}
 	}
 }

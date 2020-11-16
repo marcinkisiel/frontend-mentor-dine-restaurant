@@ -31,4 +31,10 @@ fieldset,
 input,
 select {
 	border: none;
+	appearance: textfield;
+}
+
+.form__number:hover,
+.form__number:focus {
+	appearance: textfield;
 }
