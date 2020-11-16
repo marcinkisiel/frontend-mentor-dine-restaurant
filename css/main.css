@@ -5,7 +5,9 @@ body { box-sizing: border-box; }
 
 img { display: block; width: 100%; }
 
-.logo { display: inline-block; width: auto; }
+.logo { width: auto; margin-right: auto; margin-left: auto; }
+
+fieldset, input, select { border: none; }
 
 /** Basic typography style for copy text */
 body { font-family: "Spartan", sans-serif; font-size: 15px; font-weight: 400; line-height: 28px; letter-spacing: 0.19px; text-align: center; color: #17192b; }
@@ -241,7 +243,7 @@ h2 { font-size: 32px; font-weight: 700; line-height: 40px; letter-spacing: 0.4px
 
 @media (min-width: 768px) { .footer__column--open-times { grid-area: open-times; } }
 
-.button { display: inline-block; width: 245px; height: 64px; font-size: 14px; font-weight: 600; line-height: 64px; letter-spacing: 2px; text-transform: uppercase; text-decoration: none; text-align: center; color: #fff; border: 1px solid #fff; transition: all 0.2s; }
+.button { display: inline-block; width: 245px; height: 64px; font-family: "Spartan", sans-serif; font-size: 14px; font-weight: 600; line-height: 64px; letter-spacing: 2px; text-transform: uppercase; text-decoration: none; text-align: center; color: #fff; border: 1px solid #fff; transition: all 0.2s; }
 
 .button:hover, .button:active { color: #111111; background-color: #fff; }
 
@@ -286,3 +288,9 @@ h2 { font-size: 32px; font-weight: 700; line-height: 40px; letter-spacing: 0.4px
 .header__text { margin-bottom: 24px; }
 
 .header__button { display: inline-block; }
+
+.main { height: 534px; }
+
+.main__container { margin-top: -136px; padding: 32px; background-color: #fff; box-shadow: 0px 75px 100px -50px rgba(56, 66, 85, 0.5); }
+
+.form__submit { background-color: #111111; }

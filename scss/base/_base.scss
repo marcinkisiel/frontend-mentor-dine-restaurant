@@ -1,6 +1,4 @@
-// -----------------------------------------------------------------------------
-// This file contains very basic styles.
-// -----------------------------------------------------------------------------
+// Reset
 
 *,
 *::before,
@@ -14,12 +12,23 @@ body {
 	box-sizing: border-box;
 }
 
+// Images
+
 img {
 	display: block;
 	width: 100%;
 }
 
 .logo {
-	display: inline-block;
 	width: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+// Forms
+
+fieldset,
+input,
+select {
+	border: none;
 }

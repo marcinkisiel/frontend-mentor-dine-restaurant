@@ -29,3 +29,20 @@
 		display: inline-block;
 	}
 }
+
+.main {
+	height: 534px;
+
+	&__container {
+		margin-top: -136px;
+		padding: 32px;
+		background-color: $white;
+		box-shadow: 0px 75px 100px -50px rgba(56, 66, 85, 0.5);
+	}
+}
+
+.form {
+	&__submit {
+		background-color: $primary-dark;
+	}
+}

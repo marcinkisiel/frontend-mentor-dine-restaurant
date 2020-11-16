@@ -10,7 +10,9 @@
 	<body>
 		<header class="header">
 			<div class="header__column container">
-				<img class="header__logo logo" src="./images/logo.svg" alt="Dine logo" />
+				<a class="header__logo-link" href="./index.html">
+					<img class="header__logo logo" src="./images/logo.svg" alt="Dine logo" />
+				</a>
 				<h1 class="header__title">Reservations</h1>
 				<p class="header__text">
 					We can’t wait to host you. If you have any special requirements please feel free to call on the phone number below. We’ll be happy
@@ -24,13 +26,13 @@
 			<section class="main__container container">
 				<div class="form">
 					<form class="form__body" action="#" method="get">
-						<label class="form__label" for="name"
-							><input class="form__text form__text--name" type="text" id="name" name="name" aria-label="Name" placeholder="Name"
-						/></label>
+						<label class="form__label" for="name">
+							<input class="form__text form__text--name" type="text" id="name" name="name" aria-label="Name" placeholder="Name" />
+						</label>
 
-						<label class="form__label" for="email"
-							><input class="form__text form__text--email" type="email" id="email" name="email" aria-label="Email" placeholder="Email"
-						/></label>
+						<label class="form__label" for="email">
+							<input class="form__text form__text--email" type="email" id="email" name="email" aria-label="Email" placeholder="Email" />
+						</label>
 
 						<fieldset class="form__fieldset form__fieldset--date">
 							<legend class="form__legend">Pick a date</legend>
@@ -64,12 +66,14 @@
 								<option class="form__option" value="pm">PM</option>
 							</select>
 						</fieldset>
+
 						<div class="form__counter counter">
-							<label class="counter__label" for="counter"
-								><input class="counter__input" type="number" name="counter" id="counter" placeholder="2" min="2" max="10" />
-								people</label
-							>
+							<label class="counter__label" for="counter">
+								<input class="counter__input" type="number" name="counter" id="counter" placeholder="2" min="2" max="10" />
+								people
+							</label>
 						</div>
+
 						<input class="form__submit button" type="submit" value="Make Reservation" />
 					</form>
 				</div>
@@ -78,7 +82,9 @@
 
 		<footer class="footer">
 			<div class="footer__container container">
-				<img class="footer__logo logo" src="./images/logo.svg" alt="Dine logo" />
+				<a class="footer__logo-link" href="./index.html">
+					<img class="footer__logo logo" src="./images/logo.svg" alt="Dine logo" />
+				</a>
 				<div class="footer__column footer__column--address">Marthwaite, Sedbergh <br />Cumbria <br />+00 44 123 4567</div>
 				<div class="footer__column footer__column--open-times">
 					Open Times <br />Mon-Fri: 09:00 AM - 10:00 PM <br />Sat-Sun: 09:00 AM - 11:30 PM
