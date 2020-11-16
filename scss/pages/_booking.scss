@@ -2,14 +2,14 @@
 	padding-top: 56px;
 	padding-bottom: 228px;
 	color: $white;
-	background: url(../images/homepage/ready-bg-mobile.jpg) no-repeat top center / cover;
+	background: url(../images/booking/hero-bg-mobile.jpg) no-repeat center / cover;
 
 	@media (min-width: $md) {
-		background: url(../images/homepage/ready-bg-tablet.jpg) no-repeat center / cover;
+		background: url(../images/booking/hero-bg-tablet.jpg) no-repeat center / cover;
 	}
 
 	@media (min-width: $lg) {
-		background: url(../images/homepage/ready-bg-desktop.jpg) no-repeat center / cover;
+		background: url(../images/booking/hero-bg-desktop.jpg) no-repeat center / cover;
 	}
 
 	&__logo {
