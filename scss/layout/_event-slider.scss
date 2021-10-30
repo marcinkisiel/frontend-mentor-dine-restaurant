@@ -16,6 +16,8 @@
 	}
 
 	&__grid-photo {
+		overflow: hidden;
+
 		@media (min-width: $lg) {
 			grid-area: photo;
 			width: 540px;
